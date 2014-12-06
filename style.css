@@ -32,6 +32,10 @@ body {
                font-size:11px;
         }
  
+        .header-image.cover {
+                background-image: url(https://secure.static.tumblr.com/087b559389fcc9d64fc61b050cc64037/ok5opqy/VmAnd8qoq/tumblr_static_tumblr_static__focused_v3.jpg);
+            }
+ 
         h1 {font-size: 37px;}
 	h2 {font-size: 30px;}
 	h3 {font-size: 20px;}
