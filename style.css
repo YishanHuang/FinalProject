@@ -18,21 +18,21 @@ body {
 	}
 	
 	#content #posts {
-    background-color: white;
-    width: 500px;
-    margin: 0 auto 20px;
-    padding:10px;
-}
+              background-color: white;
+              width: 500px;
+              margin: 0 auto 20px;
+              padding:10px;
+        }
  
-#content #posts .title {
-    font-size: 22px;
-}
+        #content #posts .title {
+               font-size: 22px;
+        }
  
-#content #posts .text {
-    font-size:11px;
-}
+       #content #posts .text {
+               font-size:11px;
+        }
  
-  h1 {font-size: 37px;}
+        h1 {font-size: 37px;}
 	h2 {font-size: 30px;}
 	h3 {font-size: 20px;}
 	h4 {font-size: 15px;}
