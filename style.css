@@ -36,7 +36,7 @@ body {
                 background-image: url(https://secure.static.tumblr.com/087b559389fcc9d64fc61b050cc64037/ok5opqy/VmAnd8qoq/tumblr_static_tumblr_static__focused_v3.jpg);
             }
             
-        #sidebar {text-align:center;
+       #container #sidebar {text-align:center;
 padding:50px;
 background:#ffffff;
 margin:100px auto 0px auto;}
