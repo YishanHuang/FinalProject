@@ -32,48 +32,11 @@ body {
                font-size:11px;
         }
  
-        .header-image.cover {
+        header{
                 background-image: url(https://secure.static.tumblr.com/087b559389fcc9d64fc61b050cc64037/ok5opqy/VmAnd8qoq/tumblr_static_tumblr_static__focused_v3.jpg);
             }
             
-       #container #sidebar {text-align:center;
-padding:50px;
-background:#ffffff;
-margin:100px auto 0px auto;}
-
-#sidebar a {border:0!important;}
-#sidebar a:hover {color:#f6d9d3;}
-
-#s img {width:75px;
-display:block;
-height:75px;
-margin:0 auto 25px auto;
-border-radius:100%;}
-
-
-#blogt {font-size:14px;
-font-style:italic;
-padding-bottom:14px;
-font-family:georgia;
-}
-#blogt a {color:#000000;
-}
-#blogt a:hover {color:#000000;}
-
-#links {text-transform:capitalize;
-margin-top:15px;
-}
-
-
-#links a {
-display:inline-block;
-margin:0 5px;
-}
-
-#description {
-border-top:1px solid #eeeeee;
-padding-top:14px;
-}
+      
  
         h1 {font-size: 37px;}
 	h2 {font-size: 30px;}
