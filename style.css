@@ -140,6 +140,7 @@ body {
 	.about .photo-inner img {
 		background-color:#FFF;
 		border-radius: 10px;
+		box-shadow:2px 2px 3px #aaaaaa;
 	}
 	.about h1 {
 		font-weight:900;
