@@ -126,8 +126,10 @@ body {
 	
 	.about {
 		float:left;
-		margin-top:30px;
-		margin-left:20px;
+		position:relative;
+		left:50%;
+		margin-top:-30%;
+		
 	}
 	.about .photo-inner {
 		float:left;
@@ -137,6 +139,7 @@ body {
 	}
 	.about .photo-inner img {
 		background-color:#FFF;
+		border-radius: 10px;
 	}
 	.about h1 {
 		font-weight:900;
