@@ -127,16 +127,11 @@ body {
 	.about {
 		float:left;
 		position:relative;
-		left:50%;
+		left:45%;
 		margin-top:-30%;
 		
 	}
-	.about .photo-inner {
-		float:left;
-		width:192px;
-		height:212px;
-		padding:12px 0 0 20px;
-	}
+	
 	.about .photo-inner img {
 		background-color:#FFF;
 		border-radius: 10px;
