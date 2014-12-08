@@ -245,7 +245,11 @@ body {
 		background-color:#fdc62a;
 		background-position:center 41px;
 	}
-
+        #content #posts .permalink 
+         {
+        font-size:9px;
+        margin-top:10px;
+         }
 	
     #resume {
 		padding:20px;
