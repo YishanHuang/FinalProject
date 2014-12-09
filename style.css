@@ -32,6 +32,14 @@ body {
                font-size:11px;
         }
  
+      #content #posts .metadata {
+               display: inline-block;
+               width: 100%;
+        }
+      #content #posts .reblogged {
+              float: right;
+       }
+ 
         header{
                 background-color: white;
                 width: 860px;
