@@ -122,7 +122,7 @@ body {
                 list-style: none;
             }
 
-        .like_and_reblog_buttons li {
+        .like_and_reblog_buttons p {
                 float: left;
                 margin: 0;
                 padding: 7px 15px;
