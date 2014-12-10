@@ -522,7 +522,7 @@ body {
 		margin-top:10px;
 	}
 	
-	.header: {background-color: white;
+	img {
                   width: 322px;
                   height: 180px;
 	}
@@ -544,22 +544,23 @@ body {
 		margin:10px 0 15px 10px;
 	}
 	.about .photo-inner {
-		margin-left:40px;
+		margin-left:30px;
 		width:192px;
 		height:212px;
 		padding:12px 0 0 20px;
 	} 
 	.about h1 {
 		line-height:38px;
-		text-align:center;
+		text-align:center; 
+		margin-top:-20px;
 	}
 	.about h3 {
 		font-size:14px;
 		line-height:14px;
 		text-align:center;
+		margin-top: -10px;
 	}
-	.about p {
-		text-align:center;
+	
 	}
 	/* Personal info */
 	.personal-info {
