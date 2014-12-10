@@ -29,15 +29,15 @@ body {
                font-size: 22px;
         }
  
-       #content #posts .text {
+        #content #posts .text {
                font-size:13px;
         }
  
-      #content #posts .metadata {
+        #content #posts .metadata {
                display: inline-block;
                width: 100%;
         }
-      #content #posts .reblogged {
+        #content #posts .reblogged {
               float: right;
        }
  
@@ -149,8 +149,7 @@ body {
 
         
 	
-    #profile {
-		
+       #profile {	
 		background-position:center bottom, left top;
 		background-repeat:repeat-x;
 		overflow:hidden;
@@ -188,12 +187,12 @@ body {
 	
 	
 	.personal-info {
-    width: 300px;
+                width: 300px;
 		float:right;
 		margin-top:30px;
 		min-height:230px;
 		margin-left:20px;
-    line-height: 1;
+                line-height: 1;
 		padding:20px 0 0 20px;
 	}
 	.personal-info li {
@@ -260,30 +259,17 @@ body {
         
 	.tabs li.active a {
 		color:#fdc62a;
+		text-decoration:none;
 	}
-	.tabs li .tab-profile {
-		background-color:#fdc62a ;
-		background-position:center 40px;
-	}
-	.tabs li .tab-resume {
-		background-color:#fdc62a;
-		background-position:center 30px;
-	}
-	.tabs li .tab-portfolio {
-		background-color:#fdc62a;
-		background-position:center 35px;
-	}
-	.tabs li .tab-contact {
-		background-color:#fdc62a;
-		background-position:center 41px;
-	}
+
+
         #content #posts .permalink 
          {
         font-size:9px;
         margin-top:10px;
          }
 	
-    #resume {
+        #resume {
 		padding:20px;
 		overflow:hidden;
 	}
@@ -343,12 +329,12 @@ body {
 	}
 	.skills li {
 		margin-top:5px;
-    margin-bottom:15px;
+                margin-bottom:15px;
 		float:left; 
-    font-size:13px;
+                font-size:13px;
 		padding-left:30px; 
-    line-height:17px;
-    color: #444;
+                line-height:17px;
+                color: #444;
 	}
 	.skills li h4 {
 		float:left;
@@ -356,24 +342,25 @@ body {
 		color: #444;
 	}
   
-  .skills li .timelineDate {
+        .skills li .timelineDate {
 		line-height:17px;
 		color: #f4c024;
 		font-size:14px;
 		padding:2px 6px;
 	}
   
-  .skill li p {
-    color: #666;
+        .skill li p {
+                color: #666;
 		font-size:20px;
 		
 	}
       
   
-  #portfolio {
+         #portfolio {
 		padding:0 20px 20px 20px;
 		overflow:hidden;
 	}
+	
 	#portfolio .extra-text {
 		font-size:20px;
 		padding:24px 0;
@@ -401,7 +388,7 @@ body {
 		background-color: #fdc62a;
 	}
 	
-    #contact {
+        #contact {
 		padding:30px 0;
 		overflow:hidden;
 	}
