@@ -8,7 +8,7 @@ body {
 
 #container {
   margin: 0 auto;
-  width: 860px;
+  width: 68%;
   margin-bottom: 20px;
   margin-top: 30px; }
 
@@ -16,7 +16,7 @@ body {
   background-color: white; }
   #content #posts {
     background-color: white;
-    width: 500px;
+    width: 68%;
     margin: 0 auto 20px;
     padding: 10px; }
     #content #posts .title {
@@ -31,7 +31,7 @@ body {
 
 header {
   background-color: white;
-  width: 860px; }
+  width: 68%; }
 
 h1 {
   font-size: 37px; }
@@ -136,7 +136,7 @@ div.top {
 .about {
   float: left;
   position: relative;
-  width: 860px; }
+  width: 68%; }
   .about .photo-inner img {
     background-color: white;
     border-radius: 10px;
@@ -330,7 +330,7 @@ div.top {
   width: 250px; }
 
 .contact-form {
-  width: 530px; }
+  width: 50%; }
 
 .contact-info ul {
   float: left;
