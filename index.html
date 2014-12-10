@@ -1,96 +1,112 @@
 <html>
   <head>
-    <meta charset='utf-8' />
-    <meta name='viewport' content='width=device-width,intial-scale=1.0' />
-    <title>{block:PostTitle}{PostTitle}: {/block:PostTitle}</title>
-
-    <link rel='stylesheet' href='css/style.css' />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
-    <link rel='alternate' type='application/rss+xml' href='{RSS}' />
-
+    <meta charset='utf-8'>
+    <meta content='width=device-width,intial-scale=1.0' name='viewport'>
+    <link href='http://yishanhuang.github.io/FinalProject/css/style.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='{Favicon}' rel='shortcut icon'>
+    <link href='{RSS}' rel='alternate' type='application/rss+xml'>
+    <title>Yishan Huang's Tumblr</title>
   </head>
   <body>
-    <div id="container">
-    <header>
-
-      <div class="about">
-      <h1>{Title}{block:PostSummary}, {PostSummary}{/block:PostSummary}        </h1>
-      {block:Description}
-      <meta name="description" content="{MetaDescription}" />
-      {/block:Description}
-     <link rel="shortcut icon" href="{Favicon}" />
-
-      <div id="sidebar">
-      <div class='photo-inner'><a href="/"><img src="{PortraitURL-128}" /></a></div>
-      <img class="image" src="{image:Sidebar}" />
-
-       </div>
-
-       </div>
-
-      <h1>{Title}</h1>
-     </header>
-
+    <div id='container'>
+      <div class='menu'>
+        <ul class='tabs'>
+          <li>
+            <label>
+              <a href='http://cathyhhhh.tumblr.com/askk'>Ask</a>
+            </label>
+          </li>
+          <li>
+            <label>
+              <a href='/archive'>Archive</a>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <header>
+        <div class='about'>
+          <img height='488' src='https://secure.static.tumblr.com/087b559389fcc9d64fc61b050cc64037/ok5opqy/VmAnd8qoq/tumblr_static_tumblr_static__focused_v3.jpg' width='860'>
+          <h1>{Title}</h1>
+          {block:Description}
+          <h2>{Description}</h2>
+          {/block:Description}
+          <div class='photo-inner'>
+            <a href='/'>
+              <img src='{PortraitURL-128}'>
+            </a>
+          </div>
+        </div>
+      </header>
       <div id='content'>
         {block:Posts}
-         <div id="posts">
-        {block:Text}
-        <div class='post-text'>
-          {block:Title}
-          <h3 class="sub-title">
-            <a href='{Permalink}'>{Title}</a>
-          </h3>
-          {/block:Title}
-          <div class='text'>
-            {Body}
+        <div id='posts'>
+          <header class='metadata'>
+            {block:Date}
+            <h4>
+              <time datetime='{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero}'>{DayOfMonth} {Month} {Year}</time>
+            </h4>
+            {/block:Date}
+            {block:NoteCount}
+            <a class='notecount' href='{Permalink}#notes'>{NoteCountWithLabel}</a>
+            {/block:NoteCount}
+            {block:ContentSource}
+            <div class='reblogged'>
+              <a href='{SourceURL}'>
+                {lang:Source}:{block:NoSourceLogo}{SourceTitle}{/block:NoSourceLogo} {block:RebloggedFrom}<img src='{ReblogParentPortraitURL-16}'>{/block:RebloggedFrom}
+                {block:SourceLogo}<img alt='{SourceTitle}' height='{LogoHeight}' src='{BlackLogoURL}' width='{LogoWidth}'>{/block:SourceLogo}
+              </a>
+            </div>
+            {/block:ContentSource}
+          </header>
+          {block:Text}
+          <div class='post-text'>
+            {block:Title}
+            <h3 class='sub-title'>
+              <a href='{Permalink}'>{Title}</a>
+            </h3>
+            {/block:Title}
+            <div class='text'>
+              {Body}
+            </div>
           </div>
-
-          <div class='metadata'>
-            <ul>
+          {/block:Text}
+          {block:Photoset}
+          <div class='photoset inner'>
+            {Photoset-500}
+            {block:Caption}{Caption}{/block:Caption}
+            {/block:Photoset}
+            <div class='like_and_reblog_buttons'>
+              <p>{ReblogButton}{LikeButton}</p>
+            </div>
+          </div>
+          {/block:Posts}
+          <div class='top'>
+            <ul class='socialicons'>
               <li>
-                <a href='{Permalink}'>Permalink to this post</a>
+                <a class='social-facebook' href='https://www.facebook.com/catherine.huang.7509'></a>
               </li>
-              {block:HasTags}
-              <li>Tagged
-                <ul>
-                  {block:Tags}
-                  <li>
-                    <a href='{TagURL}'>{Tag}</a>
-                  </li>
-                  {/block:Tags}
-                </ul>
+              <li>
+                <a class='social-twitter' href='https://twitter.com/YishanH'></a>
               </li>
-              {/block:HasTags}
+              <li>
+                <a class='social-in' href='http://instagram.com/yishann1216'></a>
+              </li>
+              <ul>
+                Get the
+                <a href='{RSS}'>feed for this blog</a>
+              </ul>
             </ul>
           </div>
         </div>
-        {/block:Text}
-
-         {block:Photoset}
-        <div class="photoset inner">
-            {Photoset-500}
-            {block:Caption}{Caption}{/block:Caption}
-        {/block:Photoset}
-        {/block:Posts}
-        </div>
+        <footer>
+          {block:PreviousPage}
+          <a href='{PreviousPage}'>« Previous</a>
+          {/block:PreviousPage}{block:NextPage}
+          <a href='{NextPage}'>Next »</a>
+          {/block:NextPage}
+        </footer>
       </div>
-
-    <footer>
-    <div class="top">
-
-                <ul class="socialicons">
-                	<li><a href="https://www.facebook.com/catherine.huang.7509" class="social-facebook"></a></li>
-                    <li><a href="https://twitter.com/YishanH" class="social-twitter"></a></li>
-                    <li><a href="http://instagram.com/yishann1216" class="social-in"></a></li>
-                    <li>Get the
-        <a href='{RSS}'>feed for this blog</a>
-      </li>
-                </ul>
-
-            </div>
-
-    </footer>
-
     </div>
   </body>
 </html>
