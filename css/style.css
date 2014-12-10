@@ -28,19 +28,11 @@ body {
         #content #posts .title {
                font-size: 22px;
         }
-<<<<<<< HEAD
 
         #content #posts .text {
                font-size:13px;
         }
 
-=======
- 
-        #content #posts .text {
-               font-size:13px;
-        }
- 
->>>>>>> FETCH_HEAD
         #content #posts .metadata {
                display: inline-block;
                width: 100%;
@@ -155,15 +147,9 @@ body {
                 height: 20px;
             }
 
-<<<<<<< HEAD
 
 
        #profile {
-=======
-        
-	
-       #profile {	
->>>>>>> FETCH_HEAD
 		background-position:center bottom, left top;
 		background-repeat:repeat-x;
 		overflow:hidden;
@@ -268,33 +254,20 @@ body {
 		-webkit-border-radius: 3px;
 		font-size: 15px;
         }
-<<<<<<< HEAD
 
 
-=======
-        
-        
->>>>>>> FETCH_HEAD
 	.tabs li.active a {
 		color:#fdc62a;
 		text-decoration:none;
 	}
 
 
-<<<<<<< HEAD
         #content #posts .permalink
-=======
-        #content #posts .permalink 
->>>>>>> FETCH_HEAD
          {
         font-size:9px;
         margin-top:10px;
          }
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> FETCH_HEAD
         #resume {
 		padding:20px;
 		overflow:hidden;
@@ -356,15 +329,9 @@ body {
 	.skills li {
 		margin-top:5px;
                 margin-bottom:15px;
-<<<<<<< HEAD
 		float:left;
                 font-size:13px;
 		padding-left:30px;
-=======
-		float:left; 
-                font-size:13px;
-		padding-left:30px; 
->>>>>>> FETCH_HEAD
                 line-height:17px;
                 color: #444;
 	}
@@ -373,43 +340,26 @@ body {
 		font-size:15px;
 		color: #444;
 	}
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> FETCH_HEAD
         .skills li .timelineDate {
 		line-height:17px;
 		color: #f4c024;
 		font-size:14px;
 		padding:2px 6px;
 	}
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> FETCH_HEAD
         .skill li p {
                 color: #666;
 		font-size:20px;
 
 	}
-<<<<<<< HEAD
 
 
-=======
-      
-  
->>>>>>> FETCH_HEAD
          #portfolio {
 		padding:0 20px 20px 20px;
 		overflow:hidden;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> FETCH_HEAD
 	#portfolio .extra-text {
 		font-size:20px;
 		padding:24px 0;
@@ -436,11 +386,7 @@ body {
 	#portfolio-filter li a:hover {
 		background-color: #fdc62a;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> FETCH_HEAD
         #contact {
 		padding:30px 0;
 		overflow:hidden;
@@ -574,7 +520,6 @@ body {
 		width:320px;
 		margin-top:10px;
 	}
-<<<<<<< HEAD
 
 	header {
                   width: 340px;
@@ -595,28 +540,6 @@ body {
 	}
 
 
-=======
-	
-	header {
-                  width: 340px;
-	}
-	
-	#content {
-		width:340px;
-	}
-	
-        #content #posts {
-              width: 320px;
-              margin: 0 auto 20px;
-              padding:10px;
-        }
-	
-	#content #posts .photoset-inner{
-		width: 320px;
-	}
-	
-	
->>>>>>> FETCH_HEAD
 	div.top {
 		height:50px;
 		width:320px;
@@ -628,36 +551,21 @@ body {
 		display:block;
 		margin:10px 0 15px 10px;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> FETCH_HEAD
 	.about img{
 		width:340px;
 		height:240px;
 		margin-top:-10px;
 		margin-left:-10px;
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> FETCH_HEAD
 	}
 	.about .photo-inner {
 		margin-left:30px;
 		width:180px;
-<<<<<<< HEAD
 
 		padding:12px 0 0 20px;
 	}
 
-=======
-		
-		padding:12px 0 0 20px;
-	} 
-	
->>>>>>> FETCH_HEAD
 	.about .photo-inner img {
 		background-color:#FFF;
 		border-radius: 100px;
@@ -666,17 +574,10 @@ body {
 		width:100px;
 		height:100px;
 	}
-<<<<<<< HEAD
 
 	.about h1 {
 		line-height:38px;
 		text-align:center;
-=======
-	
-	.about h1 {
-		line-height:38px;
-		text-align:center; 
->>>>>>> FETCH_HEAD
 		margin-top:-170px;
 	}
 	.about h3 {
@@ -685,11 +586,7 @@ body {
 		text-align:center;
 		margin-top: -10px;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> FETCH_HEAD
 	}
 	/* Personal info */
 	.personal-info {
@@ -717,15 +614,9 @@ body {
 		font-size:13px;
 
 	}
-<<<<<<< HEAD
 
 
 
-=======
-	
-	
-  
->>>>>>> FETCH_HEAD
 		/* Resume */
 
 	#resume {
