@@ -519,7 +519,11 @@ body {
 	
 	#container {
 		width:300px;
-				margin-top:10px;
+		margin-top:10px;
+	}
+	
+	.header: {background-color: white;
+                  width: 300px;
 	}
 	
 	div.top {
