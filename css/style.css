@@ -549,8 +549,8 @@ body {
 	}
 	
 	.about img{
-		width:320px;
-		height:180px;
+		width:340px;
+		height:240px;
 		
 		
 	}
@@ -563,9 +563,11 @@ body {
 	
 	.about .photo-inner img {
 		background-color:#FFF;
-		border-radius: 10px;
+		border-radius: 100px;
 		box-shadow:2px 2px 3px #aaaaaa;
-		margin-left:42.5%;
+		margin-left:35%;
+		width:100px;
+		height:100px;
 	}
 	
 	.about h1 {
