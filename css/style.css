@@ -553,13 +553,22 @@ body {
 		width:320px;
 		height:180px;
 		
+		
 	}
 	.about .photo-inner {
 		margin-left:30px;
-		width:192px;
-		height:212px;
+		width:180px;
+		height:200px;
 		padding:12px 0 0 20px;
 	} 
+	
+	.about .photo-inner img {
+		background-color:#FFF;
+		border-radius: 10px;
+		box-shadow:2px 2px 3px #aaaaaa;
+		margin-left:42.5%;
+	}
+	
 	.about h1 {
 		line-height:38px;
 		text-align:center; 
