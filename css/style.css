@@ -533,6 +533,11 @@ body {
               padding:10px;
         }
 	
+	#content #posts .photoset-inner{
+		width: 320px;
+	}
+	
+	
 	div.top {
 		height:50px;
 		margin-bottom:5px;
@@ -588,6 +593,8 @@ body {
 		font-size:13px;
 
 	}
+	
+	
   
 		/* Resume */
 
