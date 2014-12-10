@@ -525,6 +525,10 @@ body {
                   width: 340px;
 	}
 	
+	#content {
+		width:340px;
+	}
+	
         #content #posts {
               width: 320px;
               margin: 0 auto 20px;
