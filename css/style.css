@@ -527,9 +527,11 @@ body {
                   height: 180px;
 	}
 	
-	div.post{
-		width: 322px;
-	}
+        #content #posts {
+              width: 320px;
+              margin: 0 auto 20px;
+              padding:10px;
+        }
 	
 	div.top {
 		height:50px;
