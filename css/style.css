@@ -226,7 +226,6 @@ body {
 	.tabs {
 		height:116px;
 		position: absolute;
-		margin-top:-14px;
 	}
 	.tabs li {
 		float:left;
@@ -250,7 +249,8 @@ body {
 		background-color:#f4c024;
 		float:left;
 		padding:4px 7px;
-		border-radius: 3px;
+		border-radius: 4px;
+		margin:15px;
 		-moz-border-radius: 3px;
 		-webkit-border-radius: 3px;
         }
