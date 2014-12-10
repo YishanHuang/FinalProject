@@ -159,7 +159,6 @@ body {
 	.about {
 		float:left;
 		position:relative;
-		margin-top:-27%;
 		width:860px;
 		
 	}
@@ -174,7 +173,7 @@ body {
 		font-weight:900;
 		color:#FFF;
 		line-height:34px;
-		margin-top:8px;
+		margin-top:-200px;
 		text-align:center;
 		text-shadow:3px 3px 3px #cccccc;
 	}
