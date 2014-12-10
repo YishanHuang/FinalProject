@@ -523,7 +523,12 @@ body {
 	}
 	
 	.header: {background-color: white;
-                  width: 300px;
+                  width: 322px;
+                  height: 180px;
+	}
+	
+	div.post{
+		width: 322px;
 	}
 	
 	div.top {
