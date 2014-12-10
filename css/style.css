@@ -230,6 +230,7 @@ body {
 	.tabs li {
 		float:left;
 		height:116px;
+		list-style:none;
 	}
 	.tabs li > a {
 		padding-top:40px;
@@ -239,7 +240,8 @@ body {
 		background-repeat:no-repeat;
 		font-size:20px;
 		text-align:center;
-    color: #333;
+		list-style:none;
+                color: #333;
 	}
 
 
