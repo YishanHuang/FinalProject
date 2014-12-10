@@ -523,7 +523,7 @@ body {
 	}
 	
 	header {
-                  width: 320px;
+                  width: 340px;
 	}
 	
         #content #posts {
@@ -563,7 +563,7 @@ body {
 	.about h1 {
 		line-height:38px;
 		text-align:center; 
-		margin-top:-20px;
+		margin-top:-170px;
 	}
 	.about h3 {
 		font-size:14px;
